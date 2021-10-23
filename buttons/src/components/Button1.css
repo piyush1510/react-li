@@ -1,0 +1,31 @@
+.btn2{
+    background: #3700b3;
+    height: 70px;
+    width: 120px;
+    border: none;
+    color: #3700b3;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 4px 4px 4px black;
+    transition: box-shadow 0.5s,transform 0.5s;
+    overflow: hidden;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    position: relative;
+}
+.backdrop-btn2{
+    background-color: #9a52ff;
+    width: 200%;
+    height: 200%;
+    position:unset;
+    z-index: 0;
+    left: -50%;
+    top: -50%;
+    position: absolute;
+    transform: rotate(-10deg);
+}
+.btn2-content{
+    position: absolute;
+}

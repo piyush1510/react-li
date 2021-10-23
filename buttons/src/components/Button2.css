@@ -1,0 +1,15 @@
+.btn1{
+    background: linear-gradient(60deg,#6200ee 50%,#3700b3 50%);
+    border: 2px solid rgba(255, 255, 255, 0.356);
+    padding: 20px;
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 4px 4px 4px black;
+    transition: box-shadow 0.5s,transform 0.5s;
+}
+.btn1:hover{
+    box-shadow: 8px 8px 15px black;
+    transform: scale(1.05);
+}

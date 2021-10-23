@@ -1,0 +1,91 @@
+nav{
+    height: 50px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.07);
+    color: rgb(185, 185, 185);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+}
+.logo{
+    text-align: center;
+    margin: 20px;
+    margin-top: 70px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    border-radius: 50%;
+    font-size: 60px;
+    font-weight: 400;
+    font-family: 'Festive' , cursive;
+    letter-spacing: -8px;
+    background-color: rgba(0, 0, 0, 0.281);
+}
+.logo span{
+    color: rgb(245, 125, 149);
+}
+
+.btn{
+    background-color: rgba(255, 255, 255, 0.164);
+    border: none;
+    color: white;
+    font-size: 40px;
+    margin-right: 10px;
+    margin-top: 20px;
+    padding: 5px 5px 0px 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: rgba(255, 255, 255, 0.212);
+}
+.btn:focus{
+    background-color: rgba(233, 18, 18, 0.57);
+}
+.close-button{
+    position: absolute;
+    top: 20px;
+    right: 0;
+}
+.drawer{
+    z-index: -1;
+    position: fixed;
+    height: calc(100vh - 50px);
+    width: 100%;
+    top: 50px;
+    left: 100vw;
+    background-color: rgb(46, 0, 23);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.drawer-menu{
+    list-style: none;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+.drawer-links{
+    flex: 0.5;
+    width: 100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.drawer-links a{
+    width: 100%;
+    display:flex;
+    height: 100%;
+    justify-content:center;
+    align-items:center;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.596);
+}
+.drawer-links a:hover{
+    background-color: rgba(255, 255, 255, 0.151);
+    color: white;
+}
